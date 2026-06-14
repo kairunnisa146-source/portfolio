@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    margin: 20px;
+    line-height: 1.6;
+}
+section {
+    background-color: white;         /* Gives each section its own white box background */
+    padding: 30px;                   /* Adds clean spacing inside the boxes */
+    margin: 30px auto;               /* Puts separation space between the boxes */
+    max-width: 900px;                /* Keeps the sections aligned with your content width */
+    border-radius: 10px;             /* Gives the section corners a soft rounded edge */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Adds a premium, subtle drop shadow */
+}
+.header-box{
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header-box h1{
+    margin: 0;
+    color: white;
+}
+
+.header-box p{
+    margin-top: 10px;
+}
+
+h2{
+    color: #0077b6;
+}
+
+.profile-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-text{
+    width: 70%;
+}
+
+.profile-section img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+ul, ol{
+    padding-left: 20px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #005f8f;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #
